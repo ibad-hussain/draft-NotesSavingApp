@@ -29,7 +29,7 @@ A simple and efficient notes app built with **React JS** that allows users to ad
 ## 🚀 Deployment
 The app is deployed on <b>Vercel</b> and can be accessed via:
 <br>
-https://jetstriker.netlify.app/
+https://draft-notes-app.vercel.app/
 
 <br>
 
