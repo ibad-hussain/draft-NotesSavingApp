@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    font-family: "Parkinsans", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #002233;
+  padding: 0px 10px;
+}

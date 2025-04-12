@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-allNotes {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#search-bar {
+    width: 70vw;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background-color: #4a93ff;
+}
+
+.all-notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note {
+    width: 70vw;
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #4a93ff;
+}
+
+.note-layer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    padding: 5px 10px;
+    background-color: #0066FF;
+}
+
+.date {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.date img {
+    width: 22px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons img {
+    width: 20px;
+}
+
+.buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #96dcff;
+}
+
+.buttons div:hover {
+    background-color: #ffffff;
+}
+
+.buttons a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #96dcff;
+}
+
+.buttons a:hover {
+    background-color: #ffffff;
+}
+
+.note-content {
+    padding: 10px;
+}
+
+#title-area {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#content-area {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Allow dynamic height */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limits content to 2 lines */
+    line-clamp: 2; /* Standard property (future support) */
+    -webkit-box-orient: vertical;
+    box-orient: vertical; /* Standard property */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+}
