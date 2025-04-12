@@ -1,4 +1,4 @@
-# Jet Striker Game Landing Page
+# Draft - Notes Saving App
 ## 🚀 Overview
 A simple and efficient notes app built with **React JS** that allows users to add, edit, delete, and search through their notes. The application leverages **Redux Toolkit** for managing the app's state, and it saves the notes in the browser's `localStorage`, ensuring that the notes persist even after the page reloads.
 
